@@ -1,2 +1,9 @@
 ---
+#
+# The following are per-instance values for a specific CollectionSpace
+# server installation.
+#
+# Default values can be found in the collectionspace_common.yaml file.
+# See comments in that file for more details.
+#
 collectionspace::instance_id: mymuseum
