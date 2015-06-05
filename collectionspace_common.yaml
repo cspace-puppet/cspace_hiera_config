@@ -24,8 +24,10 @@ collectionspace::ant_opts: -Xmx1024m -XX:MaxPermSize=512m
 collectionspace::catalina_home: /usr/local/share/apache-tomcat-7.0.57
 collectionspace::catalina_opts: -Xmx1024m -XX:MaxPermSize=384m
 collectionspace::catalina_pid: /usr/local/share/apache-tomcat-7.0.57/bin/tomcat.pid
-# The cspace_instance_id is empty (blank), by default.
-collectionspace::cspace_instance_id: 
+# The cspace_instance_id's default value is "_default".
+# Custom, per-instance values should also begin, by convention,
+# with an underscore ("_").
+collectionspace::cspace_instance_id: _default
 collectionspace::cspace_jeeserver_home: /usr/local/share/apache-tomcat-7.0.57
 collectionspace::cspace_user: cspace
 collectionspace::db_admin_user: postgres
