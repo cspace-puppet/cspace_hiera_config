@@ -4,6 +4,8 @@
 # server installation.
 #
 # Default values can be found in the collectionspace_common.yaml file.
+# Lines in that file can be copied into this file, and their values
+# edited here, to create per-instance values.
+#
 # See comments in that file for more details.
 #
-collectionspace::instance_id: mymuseum
