@@ -43,5 +43,5 @@ collectionspace::db_port: 5432
 collectionspace::db_reader_password: 
 collectionspace::lc_all: en_US.utf8
 collectionspace::maven_opts: -Xmx1024m -XX:MaxPermSize=512m -Dfile.encoding=UTF-8
-collectionspace::release_version: 4.2
+collectionspace::release_version: 4.3
 collectionspace::server_dir_name: apache-tomcat-7.0.57
