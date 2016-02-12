@@ -29,6 +29,7 @@ collectionspace::catalina_pid: /usr/local/share/apache-tomcat-7.0.57/bin/tomcat.
 # with an underscore ("_").
 collectionspace::cspace_instance_id: _default
 collectionspace::cspace_jeeserver_home: /usr/local/share/apache-tomcat-7.0.57
+collectionspace::jee_port: 8180
 collectionspace::cspace_user: cspace
 collectionspace::db_admin_user: postgres
 # Any password values not supplied here in Hiera configuration, or in
