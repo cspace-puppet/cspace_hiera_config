@@ -36,7 +36,7 @@ collectionspace::db_admin_user: postgres
 # environment variables on the local host, will be automatically generated.
 collectionspace::db_admin_password: 
 collectionspace::db_csadmin_user: csadmin
-collectionspace::db_csadmin_password: 
+collectionspace::db_csadmin_password: postgres
 collectionspace::db_cspace_password: 
 collectionspace::db_host: localhost
 collectionspace::db_nuxeo_password: 
