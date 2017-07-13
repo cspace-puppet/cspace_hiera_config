@@ -1,2 +1,19 @@
 ---
-collectionspace::instance_id: mymuseum
+#
+# The following is simply a placeholder entry, with no meaning,
+# to avoid  "Data retrieved ... is String not Hash" errors when
+# Hiera reads an empty YAML file, as per this and similar issues:
+# https://tickets.puppetlabs.com/browse/PUP-1224
+#
+collectionspace_instance::instance_version: 1.0
+#
+#
+# The following are per-instance values for a specific CollectionSpace
+# server installation.
+#
+# Default values can be found in the collectionspace_common.yaml file.
+# Lines in that file can be copied into this file, and their values
+# edited here, to create per-instance values.
+#
+# See comments in that file for more details.
+#
