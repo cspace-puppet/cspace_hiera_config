@@ -21,14 +21,14 @@
 # similarly, CATALINA_HOME would override collectionspace::catalina_home.
 #
 collectionspace::ant_opts: -Xmx1024m -XX:MaxPermSize=512m
-collectionspace::catalina_home: /usr/local/share/apache-tomcat-7.0.57
+collectionspace::catalina_home: /usr/local/share/apache-tomcat-7.0.64
 collectionspace::catalina_opts: -Xmx1024m -XX:MaxPermSize=384m
-collectionspace::catalina_pid: /usr/local/share/apache-tomcat-7.0.57/bin/tomcat.pid
+collectionspace::catalina_pid: /usr/local/share/apache-tomcat-7.0.64/bin/tomcat.pid
 # The cspace_instance_id's default value is "_default".
 # Custom, per-instance values should also begin, by convention,
 # with an underscore ("_").
 collectionspace::cspace_instance_id: _default
-collectionspace::cspace_jeeserver_home: /usr/local/share/apache-tomcat-7.0.57
+collectionspace::cspace_jeeserver_home: /usr/local/share/apache-tomcat-7.0.64
 collectionspace::jee_port: 8180
 collectionspace::cspace_user: cspace
 collectionspace::db_admin_user: postgres
@@ -44,5 +44,5 @@ collectionspace::db_port: 5432
 collectionspace::db_reader_password: 
 collectionspace::lc_all: en_US.utf8
 collectionspace::maven_opts: -Xmx1024m -XX:MaxPermSize=512m -Dfile.encoding=UTF-8
-collectionspace::release_version: 4.4
-collectionspace::server_dir_name: apache-tomcat-7.0.57
+collectionspace::release_version: 4.5
+collectionspace::server_dir_name: apache-tomcat-7.0.64
