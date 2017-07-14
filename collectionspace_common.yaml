@@ -34,14 +34,14 @@ collectionspace::cspace_user: cspace
 collectionspace::db_admin_user: postgres
 # Any password values not supplied here in Hiera configuration, or in
 # environment variables on the local host, will be automatically generated.
-collectionspace::db_admin_password: 
+collectionspace::db_admin_password: postgres
 collectionspace::db_csadmin_user: csadmin
-collectionspace::db_csadmin_password: postgres
-collectionspace::db_cspace_password: 
+collectionspace::db_csadmin_password: csadmin
+collectionspace::db_cspace_password: cspace
 collectionspace::db_host: localhost
-collectionspace::db_nuxeo_password: 
+collectionspace::db_nuxeo_password: nuxeo
 collectionspace::db_port: 5432
-collectionspace::db_reader_password: 
+collectionspace::db_reader_password: reader
 collectionspace::lc_all: en_US.utf8
 collectionspace::maven_opts: -Xmx1024m -XX:MaxPermSize=512m -Dfile.encoding=UTF-8
 collectionspace::release_version: 4.5
