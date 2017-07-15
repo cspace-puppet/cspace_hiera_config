@@ -20,9 +20,9 @@
 # would override the value of collectionspace::ant_opts, below. And
 # similarly, CATALINA_HOME would override collectionspace::catalina_home.
 #
-collectionspace::ant_opts: -Xmx1024m -XX:MaxPermSize=512m
+collectionspace::ant_opts: -Xmx1524m
 collectionspace::catalina_home: /usr/local/share/apache-tomcat-7.0.64
-collectionspace::catalina_opts: -Xmx1024m -XX:MaxPermSize=384m
+collectionspace::catalina_opts: -Xmx1024m
 collectionspace::catalina_pid: /usr/local/share/apache-tomcat-7.0.64/bin/tomcat.pid
 # The cspace_instance_id's default value is "_default".
 # Custom, per-instance values should also begin, by convention,
@@ -43,6 +43,6 @@ collectionspace::db_nuxeo_password: nuxeo
 collectionspace::db_port: 5432
 collectionspace::db_reader_password: reader
 collectionspace::lc_all: en_US.utf8
-collectionspace::maven_opts: -Xmx1024m -XX:MaxPermSize=512m -Dfile.encoding=UTF-8
+collectionspace::maven_opts: -Xmx1524m -Dfile.encoding=UTF-8
 collectionspace::release_version: 4.5
 collectionspace::server_dir_name: apache-tomcat-7.0.64
